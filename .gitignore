@@ -1,0 +1,23 @@
+# Models & large files (never commit these)
+weights/
+*.pt
+*.pth
+*.bin
+*.onnx
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data & images
+data/
+*.jpg
+*.png
+*.npy
+
+# OS junk
+.DS_Store
+Thumbs.db
